@@ -1,1 +1,13 @@
-body { color: black;} 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation */
+a.nav-link {
+    float:right;
+}
+
+.banner { 
+    height: 1vh; 
+        height: 1vh; 
+}
