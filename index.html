@@ -18,59 +18,64 @@
 <!-- Header Content -->
     <header>
     <!-- Navigation -->
-       <div class="container-fluid">
+        <div class="container-fluid fixed-top">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><img src="assets/images/ernestina.png" alt="ernestina's-logo" class="logoImage"></a>
-                    <!-- Menu on mobile -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="NavbarSupportedContent">
+                    <!-- Navigation on mobile -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#TinaBar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-              <div class="collapse navbar-collapse" id="NavbarSupportedContent">
+                    <div class="collapse navbar-collapse" id="TinaBar">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                            <a class="nav-link" href="#gallery">My Work</a>
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">MY WORK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
                         </li>
                     </ul>
               </div>
            </nav>
        </div>
     <!-- Banner Content -->
-
-       <section class="banner">
-         <div class="container">
-           <div class="row">
-               <div class="col-sm">
-                 <h1>Hi! Welcome to Ernestina's portfolio corner.</h1>
-                 <p>Here you'll find out more about Ernestina, be able to view some of her latest works as well as be able to get in touch!</p>
-                 <a class="btn btn-lg" href="#gallery" role="button">Show me!</a>
-               </div>
-               <div class="col-sm">
-                 <img src="" alt="">
-               </div>
-             </div>
-           </div>
-       </section>
+        <section id="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md banner-text">
+                        <h1>Hi there!
+                        <br>
+                        Welcome on board.</h1>
+                        <p class="banner-paragraph">This corner was designed for you to find out more about Ernestina's background & skills, be able to view some of her latest works and contact her on your next big idea!</p>
+                        <a class="btn btn-lg btn-banner" href="#about" role="button">Tell me more!</a>
+                    </div>
+                    <div class="col-md">
+                        <img src="assets/images/drawkit-banner.png" class="banner-image" alt="banner-image"> <!-- Illustration downloaded from https://www.drawkit.io/illustrations/server-woman-monochrome -->
+                    </div>
+                 </div>
+            </div>
+        </section>
     </header>
 
 <!-- About Division -->
-    <section id="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-5 col-md-offset-0">
-              <h1 class="title">About Me</h1>
+<section id="about">
+     <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              <h1 class="title">ABOUT</h1>
             </div>
-            <div class="col-md-7 col-md-offset-0">
-              <div class="row">
-                <div class="col-md-12">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="col-md-6 about-paragraphs">
+                    <h4 class="about-h4">BACKGROUND</h4>
+            				<p>Ernestina is a freelance digital illustrator. In 2019, Ernestina completed the "Graphic Design Specialisation" offered by the Californian Institute of the Arts via Coursera - this has helped her to expand her portfolio and soliify her knowledge.</p>
+                    <h4 class="about-h4">STYLE</h4>
+            				<p>Her inspiration comes from the human figure an elements in nature. You can observe a flat design with dominant gradients as well as the ocassional texture.</p>
+                    <h4 class="about-h4">TOOLS</h4>
+                    <p>She uses both vector and pixel based tools to complete her works. Mastering the Adobe Suite (Adobe Illustrator, Adobe Photoshop, Adobe Dimension), Affinite Designer and Procreate for iPad software.</p>
+                    <a class="btn btn-lg btn-banner custom-cta" href="#gallery" role="button">Show me!</a>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
     </section>
 
@@ -78,18 +83,18 @@
     <section id="gallery">
         <div class="container gallery">
           <div class="row">
-            <div class="col-md-5 col-md-offset-0">
-              <h1 class="title">My Work</h1>
+            <div class="col-md-6">
+              <h1 class="title">MY WORK</h1>
             </div>
-            <div class="col-md-7 col-md-offset-0">
-              <div class="row">
-                <div class="col-md-12">
-				<img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                </div>
+              <div class="col-md-6">
+                    <p class="work-description">Here are some of the 2020 latest pieces - a combination of vector & pixel based works.</p>
+                    <img class="my-work" src="assets/images/1.png" alt="work1">
+                    <img class="my-work" src="assets/images/2.jpg" alt="work2">
+                    <img class="my-work" src="assets/images/3.jpg" alt="work2">
+                    <img class="my-work" src="assets/images/4.jpg" alt="work2">
+                    <img class="my-work" src="assets/images/5.jpg" alt="work2">
+                    <img class="my-work" src="assets/images/6.png" alt="work2">
               </div>
-            </div>
           </div>
         </div>
     </section>
@@ -98,39 +103,40 @@
     <section id="contact">
         <div class="container contact">
           <div class="row">
-            <div class="col-md-5 col-md-offset-0">
-              <h1 class="title">Let's get in touch!</h1>
+            <div class="col-md-6">
+              <h1 class="title">CONTACT</h1>
             </div>
-            <div class="col-md-7 col-md-offset-0">
-              <div class="row">
-                <div class="col-md-12">
+            <div class="col-md-6">
+              <p class="form-paragraph">Got a cool idea or project you'd like to work on together? I'd love to hear from you - fill in the form below or email direclty at <a href="mailto:ernestinaspinu@gmail.com">ernestinaspinu@gmail.com</a></p>
                     <div class="contactform">
                         <form>
                             <div class="form-group">
-                                <label for="emailaddress">Email address</label>
+                                <label for="emailaddress">Email address:</label>
                                 <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
                                 <label for="subject">Subject:</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                <label for="exampleFormControlTextarea1">Message:</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                <button type="submit" class="btn btn-lg">Submit</button>
+                                <textarea class="form-control" id="subjectArea" rows="1"></textarea>
+                                <label for="message">Message:</label>
+                                <textarea class="form-control" id="messageArea" rows="3"></textarea>
+                                <button type="submit" class="btn btn-lg custom-cta">Send!</button>
                             </div>
                         </form>
                     </div>
                 </div>
-              </div>
             </div>
           </div>
-        </div>
     </section>
 
 <!-- Footer Content -->
 <footer>
-  <div class="container">
-    <i class="fab fa-github"></i>
-    <i class="fab fa-instagram"></i>
-    <i class="fab fa-dribbble"></i>
-    <i class="fab fa-facebook-square"></i>
+  <div class="container fab-group">
+    <i class="fab fa-github fa-3x"><a href="#" target="_blank"></a></i>
+    <i class="fab fa-instagram fa-3x"><a href="#" target="_blank"></a></i>
+    <a href="www.dribbble.com/ernestina" target="_blank"><i class="fab fa-dribbble fa-3x"></i></a>
+    <i class="fab fa-facebook-square fa-3x"><a href="#" target="_blank"></a></i>
+
+  <div class="footer-text">
+    <p>© 2020 Ernestina Spinu. All rights reserved.</p>
+  </div>
   </div>
 </footer>
 
