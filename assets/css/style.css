@@ -7,8 +7,10 @@ body {
 }
 
 /* Navigation */
+.container-fluid {
+    background-color: white;
+  }
 .navbar {
-    background-color: transparent;
     margin-top: 5px;
   }
 
