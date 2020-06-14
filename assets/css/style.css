@@ -300,6 +300,11 @@ footer, .fab-group {
       padding-left: .3em;
       padding-right: .3em;
     }
+
+    #myBtn {
+    font-size: 5px;
+  }
+
   }
 
 /* Small devices, above 320px and below 480px -iPhone 4 and 4S (portrait and landscape) */
