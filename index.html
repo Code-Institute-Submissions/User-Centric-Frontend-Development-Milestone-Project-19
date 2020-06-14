@@ -111,15 +111,28 @@
             <div class="col-md-6">
               <p class="form-paragraph">Got a cool idea or project you'd like to work on together? I'd love to hear from you - fill in the form below or email direclty at <a href="mailto:ernestinaspinu@gmail.com">ernestinaspinu@gmail.com</a></p>
                     <div class="contactform">
-                        <form>
-                            <div class="form-group">
+                        <form class="needs-validation" novalidate>
+                            <div class="form-group" id="form_group">
                                 <label for="emailaddress">Email address:</label>
-                                <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+                                <input required type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+                                <div class="invalid-feedback">
+                                  Please enter a valid email address.
+                                </div>
+
                                 <label for="subject">Subject:</label>
-                                <textarea class="form-control" id="subjectArea" rows="1"></textarea>
+                                <textarea required class="form-control" id="subjectArea" rows="1"></textarea>
+                                <div class="invalid-feedback">
+                                  Please add subject.
+                                </div>
+
                                 <label for="message">Message:</label>
-                                <textarea class="form-control" id="messageArea" rows="3"></textarea>
-                                <button type="submit" class="btn btn-lg custom-cta">Send!</button>
+                                <textarea required class="form-control" id="messageArea" rows="3"></textarea>
+                                <div class="invalid-feedback">
+                                  Please enter a message.
+                                </div>
+
+                                <button href="#contact" type="submit" class="btn btn-lg custom-cta">Send!</button>
+
                             </div>
                         </form>
                     </div>
@@ -131,10 +144,10 @@
 <!-- Footer Content -->
 <footer>
   <div class="container fab-group">
-    <i class="fab fa-github fa-3x"><a href="#" target="_blank"></a></i>
-    <i class="fab fa-instagram fa-3x"><a href="#" target="_blank"></a></i>
-    <a href="www.dribbble.com/ernestina" target="_blank"><i class="fab fa-dribbble fa-3x"></i></a>
-    <i class="fab fa-facebook-square fa-3x"><a href="#" target="_blank"></a></i>
+    <a href="https://github.com/ernestina404?tab=projects" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+    <a href="https://www.instagram.com/ernestinacreates/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+    <a href="https://www.dribbble.com/ernestina" target="_blank"><i class="fab fa-dribbble fa-3x"></i></a>
+    <a href="https://www.facebook.com/ernestina404" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
 
   <div class="footer-text">
     <p>© 2020 Ernestina Spinu. All rights reserved.</p>
