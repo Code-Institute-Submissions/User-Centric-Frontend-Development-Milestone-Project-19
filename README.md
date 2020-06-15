@@ -42,7 +42,7 @@ Conducted functionality testing on the featured of the website:
 * Responsiveness - tested that the media queries work as intended with the layout of the website adjusting according to the screen size of the device it is viewed on as well as tested compatibility with different browser types. Devices smallers than 800px width in screen size, will render in a one columm format, the title text would be centered and calls to action will float to the right hand side to account for ergonomics when using smalls devices. 
 
 # Deployment
-This project is deployed with GitHub Pages
+This project is deployed with GitHub Pages, selected the master branch to enable GitHub Pages for this repository. 
 
 # Credits
 
