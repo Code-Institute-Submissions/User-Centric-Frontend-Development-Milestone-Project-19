@@ -1,9 +1,9 @@
-#Personal Portfolio Website
+# User Centric Frontend Development Project - Personal Portfolio
 This project is built to showcase my own work as a digital illustrator and act as a portfolio in attracting new projects & clients. 
 
 The website provides a short introduction to my background & skills, displays my most recent works as well as gives the visitor a chance to get in touch via a couple of routes (i.e. email, form, social channels).
 
-#UX
+# UX
 The website has the end goal of attracting new projects & clients. With this goal in mind, it has been designed to include all necessary information & features so as to facilitate potential recruiters in viewing examples of the work styles as well as reach out on any potential offers.
 
 There are four key experiences which I wanted to make as seamless as possible for the end user/visitors to my website:
@@ -13,7 +13,7 @@ There are four key experiences which I wanted to make as seamless as possible fo
 * As a user I want to submit a form and be notified if the information I'm inserting is not correct. 
 
 
-#Features
+# Features
 
 Existing Features
 * Navigation - allows users to access the various sections of the website. It is fit for both desktop and mobile - with a hamburger version for mobile.
@@ -24,16 +24,16 @@ Existing Features
 Features Left to Implement
 * A slide show gallery for the illustrations in the "My Works" section.
 
-#Technologies Used
-* HTML - this project uses Hypertext Markup Language for its markup.
-* CSS5 - this project uses Cascading Style Sheets as the style languge to describe the presentation of the markup. 
-* JavaScript - this project usrs JavaScript for dynamic elements (i.e. back to top button, form validation).
-* Bootstrap 4.5.0 > https://getbootstrap.com/- this project uses the Bootstrap framework to automate the responsiveness of the website. 
-* MDB (Material Design for Bootstrap) > https://mdbootstrap.com/ - the project uses the MDB framework for 
-* JQuery > https://jquery.com/ - the project uses JQuery to simplify DOM manipulation.
+# Technologies Used
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - this project uses Hypertext Markup Language for its markup.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - this project uses Cascading Style Sheets as the style languge to describe the presentation of the markup. 
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Glossary/JavaScript) - this project usrs JavaScript for dynamic elements (i.e. back to top button, form validation).
+* [Bootstrap 4.5.0](https://getbootstrap.com/) - this project uses the Bootstrap framework to automate the responsiveness of the website. 
+* [MDB](https://mdbootstrap.com/) - the project uses the MDB framework for implementing features.
+* [JQuery](https://jquery.com/) - the project uses JQuery to simplify DOM manipulation.
 
 
-#Testing
+# Testing
 Conducted functionality testing on the featured of the website:
 
 * Navigation - tested that the navigation menu works well on both desktop and mobile.
@@ -41,22 +41,15 @@ Conducted functionality testing on the featured of the website:
 * CTAs & Buttons - tested that all calls to action and buttons are redirecting to the correct destinations.
 * Responsiveness - tested that the media queries work as intended with the layout of the website adjusting according to the screen size of the device it is viewed on as well as tested compatibility with different browser types. Devices smallers than 800px width in screen size, will render in a one columm format, the title text would be centered and calls to action will float to the right hand side to account for ergonomics when using smalls devices. 
 
-#Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+# Deployment
+This project is deployed with GitHub Pages
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+# Credits
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-#Credits
-
-#Media
+# Media
 The photos used in this site were obtained from:
 * Banner Image Source > https://www.drawkit.io/illustrations/server-woman-monochrome
 * Images in "My works" section are my personal digital drawings 
 
-#Acknowledgements
+# Acknowledgements
 I received inspiration for starting to work on this project by the Code Institute project suggestions for "User Centric Frontend Development Milestone Project" as well as from researching through other digital illustrators' websites to inspire on the structure and layout.
